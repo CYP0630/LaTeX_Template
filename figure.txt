@@ -1,0 +1,79 @@
+#Single Image 创建单幅图片
+#[H] located image at here，把图片固定在当前位置
+\begin{figure}[H]
+	\centering
+	\includegraphics[height= cm]{address and file name}
+	\caption{}
+	\label{}
+\end{figure}
+
+e.g. 
+\begin{figure}[H]
+	\centering
+	\includegraphics[height=6cm]{image/1model.png}
+	\caption{The model learns a words/image alignment}
+	\label{1}
+\end{figure}
+
+#########################################################################
+#1 row, 2 column, 一行两列
+\begin{figure}[H] 
+\centering    
+\subfigure[sub-title]{
+\begin{minipage}{cm}
+\centering
+\includegraphics[width = cm]{address and file name}
+\end{minipage}
+ }       
+\subfigure[sub-title]{     
+\begin{minipage}{cm}	
+\centering
+\includegraphics[width= cm]{address and file name}
+\end{minipage}     
+}     
+\caption{}     
+\label{}     
+\end{figure}
+
+e.g. 
+\begin{figure}[H] 
+\centering    
+\subfigure[Attention Source Curve]{
+\begin{minipage}{6cm}
+\centering
+\includegraphics[width=7cm]{image/lab1(1).png}
+\end{minipage}
+ }       
+\subfigure[Total Loss Curve]{     
+\begin{minipage}{6cm}	
+\centering
+\includegraphics[width=7cm]{image/lab1(2).png}
+\end{minipage}     
+}     
+\caption{Experiment 1. Attention and Loss Curve}     
+\label{fig}     
+\end{figure}
+
+
+#########################################################################
+# minipage， 多行多列
+
+\begin{figure}[H]
+	\centering
+	\subfigure{
+		\begin{minipage}[b]{7cm}
+			\includegraphics[width=1.1\linewidth]{image/a1.jpg}
+			\includegraphics[width=1.1\linewidth]{image/a2.jpg}
+			\includegraphics[width=1.1\linewidth]{image/a3.jpg}\
+	\end{minipage}}
+	\subfigure{
+		\begin{minipage}[b]{7cm}
+			\includegraphics[width=1.1\linewidth]{image/b1.jpg}
+			\includegraphics[width=1.1\linewidth]{image/b2.jpg}
+			\includegraphics[width=1.1\linewidth]{image/b3.jpg}
+	\end{minipage}}
+
+	\caption{Showcase: Some Image Caption Results}
+\end{figure}
+
+
