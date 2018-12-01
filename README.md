@@ -10,4 +10,5 @@ Presentation: A Beamer Tamplate, for academic presentation
 
 ### Online Resource
 [Online:Create Table](http://www.tablesgenerator.com/)
+
 [Online:Create Equation](http://latex.codecogs.com/eqneditor/editor.php)
