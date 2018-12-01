@@ -8,7 +8,10 @@ Short Report: Assignment or Lab Report
 
 Presentation: A Beamer Tamplate, for academic presentation
 
-### Set  
+### Files:
+Using_package.txt: refresh your package list 
+
+figure.txt: document some code to create different type image
 
 ### Online Resource
 [Online:Create Table](http://www.tablesgenerator.com/)
