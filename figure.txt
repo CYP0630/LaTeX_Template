@@ -76,4 +76,57 @@ e.g.
 	\caption{Showcase: Some Image Caption Results}
 \end{figure}
 
+#########################################################################
+三行三列，每行共享图片
+%\begin{figure*}[htbp]
+%\centering
+%\subfigure[child]
+%{
+%    \begin{minipage}[b]{0.33\textwidth}
+%        \centering
+%        \includegraphics[width=\textwidth]{wrong_graph/child_delete0.eps}
+%    \end{minipage}
+%    \begin{minipage}[b]{0.33\textwidth}
+%        \centering
+%        \includegraphics[width=\textwidth]{wrong_graph/child_delete5.eps}
+%    \end{minipage}
+%    \begin{minipage}[b]{0.33\textwidth}
+%        \centering
+%        \includegraphics[width=\textwidth]{wrong_graph/child_delete1.eps}
+%    \end{minipage}
+%}
+%\subfigure[arth150]
+%{
+% 	\begin{minipage}[b]{0.33\textwidth}
+%        \centering
+%        \includegraphics[width=\textwidth]{wrong_graph/arth150_delete0.eps}
+%    \end{minipage}
+%    \begin{minipage}[b]{0.33\textwidth}
+%        \centering
+%        \includegraphics[width=\textwidth]{wrong_graph/arth150_delete5.eps}
+%    \end{minipage}
+%    \begin{minipage}[b]{0.33\textwidth}
+%        \centering
+%        \includegraphics[width=\textwidth]{wrong_graph/arth150_delete1.eps}
+%    \end{minipage}
+%}
+%\subfigure[mehra-complete]
+%{
+% 	\begin{minipage}[b]{0.33\textwidth}
+%        \centering
+%        \includegraphics[width=\textwidth]{wrong_graph/mehra_delete0.eps}
+%    \end{minipage}
+%    \begin{minipage}[b]{0.33\textwidth}
+%        \centering
+%        \includegraphics[width=\textwidth]{wrong_graph/mehra_delete5.eps}
+%    \end{minipage}
+%    \begin{minipage}[b]{0.33\textwidth}
+%        \centering
+%        \includegraphics[width=\textwidth]{wrong_graph/mehra_delete1.eps}
+%    \end{minipage}
+%}
+%\caption{Wrong Graph Result}
+%\label{fig:wrong_result}
+%\end{figure*}
+
 
